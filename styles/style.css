@@ -1,0 +1,8 @@
+body{
+  margin: auto 0;
+}
+.image{
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
