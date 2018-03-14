@@ -3,6 +3,19 @@
     margin: 0;
     padding: 0;
 }
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(237, 237, 237);
+  height: 40px;
+  width: 100%;
+  }
 #bell{
   position: relative;
   margin-top: 5px;
@@ -45,7 +58,6 @@ ul {
 }
 .r-navigation{
   float: right;
-  margin-top: 20px;
 }
 .item{
   display: inline;
@@ -96,6 +108,25 @@ ul {
   padding: 0px 9px;
   font-size: small;
   color: #222;
-
-
+}
+.bottomnav li{
+  display: inline;
+}
+.bottomnav a{
+  text-decoration: none;
+  color: #222;
+  font-size: small;
+}
+.bottomleft{
+  position: relative;
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bottomright{
+  position: relative;
+  float: right;
+  top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
