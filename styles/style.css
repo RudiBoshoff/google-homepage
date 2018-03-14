@@ -83,5 +83,19 @@ ul {
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
   color: #222;
+}
+.languagenav a{
+  text-decoration: none;
+  color: darkblue;
+}
+.languagenav a:hover{
+  text-decoration: underline;
+}
+.languagenav li{
+  display: inline-block;
+  padding: 0px 9px;
+  font-size: small;
+  color: #222;
+
 
 }
